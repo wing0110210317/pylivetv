@@ -15,7 +15,7 @@ python ytb_proxy.py -p 端口（不加就默认5000）
 
 ```
 
-### 在cloudflare workers中转发
+### 在cloudflare workers中转发 [进阶版workers脚本]([https://www.runoob.com](https://github.com/linsongze/pylivetv/blob/main/cf_better.js))
 由于worker.dev域名已经在国内被阻断，必须自己加托管域名进行转发
 ```
 addEventListener("fetch", event => {
