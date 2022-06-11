@@ -21,9 +21,10 @@ python ytb_proxy.py -p 端口（不加就默认5000）
 1、构建镜像
 docker build . -t pyytb
 2、运行镜像
-docker run -d -p5000:5000 -name pyytb -v /opt/ytb:/app pyytb
+docker run -d -p5000:5000 --restart=always --name pyytb -v /opt/ytb:/app pyytb
+
 3（可选）、
-在/opt/ytb中修改youtube_channel.txt文件可以新增或者减少频道
+在/opt/ytb/ 中修改youtube_channel.txt文件可以新增或者减少频道
 然后执行  docker restart pyytb 就可以了。
 4、访问链接获取直播列表
 http://ip:5000/ytb.m3u #获得m3u直播列表
