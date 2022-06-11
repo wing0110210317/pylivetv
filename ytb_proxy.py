@@ -81,44 +81,21 @@ def updateM3u8():
 
 
 def initURL():
-    LIVE_MAP['CTI中天新聞HD'] = '_QbRXRnHMVY'
-    LIVE_MAP['半岛新闻(英语)'] = 'F-POY4Q0QSI'
-    LIVE_MAP['民視新聞'] = 'yguQ1SzPM5U'
-    LIVE_MAP['TVBS新聞'] = '2mCSYvcfhtc'
-    LIVE_MAP['台視新聞'] = 'xL0ch83RAK8'
-    LIVE_MAP['NBC News'] = '2JtPbSwdcLU'
-    LIVE_MAP['ABC News'] = 'w_Ma8oQLmSM'
-    LIVE_MAP['中視新聞'] = 'TCnaIE_SAtM'
-    LIVE_MAP['東森新聞'] = 'R2iMq5LKXco'
-    LIVE_MAP['三立海外'] = 'FoBfXvlOR6I'
-    LIVE_MAP['Sky News'] = '9Auq9mYxFEE'
-    LIVE_MAP['東森財經'] = 'ABn_ccXn_jc'
-    LIVE_MAP['FRANCE 24'] = 'h3MuIUNCCzI'
-    LIVE_MAP['Bloomberg Global Financial News'] = 'dp8PhLsUcFE'
-    LIVE_MAP['寰宇新聞'] = 'B7Zp3d6xXWw'
-    LIVE_MAP['TVBS國際+'] = '-ploVhEraZ8'
-    LIVE_MAP['三立 iNEWS'] = 'CKjSm5ZeehE'
-    LIVE_MAP['DW News'] = 'GE_SfNVNyqk'
-    LIVE_MAP['TVBS'] = '6eVyDy84KWs'
-    LIVE_MAP['华视新闻'] = 'wM0g8EoUZ_E'
-    LIVE_MAP['鳳凰中文'] = 'kk12tpAlGTI'
-    LIVE_MAP['鳳凰新聞'] = 'PNtdyKgGf3M'
-    LIVE_MAP['鏡新聞'] = '5n0y6b0Q25o'
-    LIVE_MAP['東森新聞全球速報'] = 'SBtGwNMfuf0'
-    LIVE_MAP['ENGLISH SPEECH'] = 'osCtkH5B7vA'
-    LIVE_MAP['ABC News-AU'] = 'vOTiJkg1voo'
-    LIVE_MAP['MBC News'] = 'NtRi45RSFfM'
-    LIVE_MAP['KBS Kr'] = 'bBodsrnap_A'
-    LIVE_MAP['華視綜藝'] = 'mliS357Ayaw'
-    LIVE_MAP['名城綜合台'] = 'ryeZuqIs_bE'
-    LIVE_MAP['運通財經'] = 'vOUo22ZNQng'
-    LIVE_MAP['YOYO TV'] = 'EZdb54miUrY'
-    LIVE_MAP['中国电影频道'] = 'BwgVG3WXs98'
-    LIVE_MAP['CCTV4中文国际'] = 'Qg9U06O2R-s'
-    LIVE_MAP['NASA TV'] = '86YLFOog4GM'
-    LIVE_MAP['NASA TV2'] = '21X5lGlDOfg'
-    LIVE_MAP['CNA'] = 'XWq5kBlakcQ'
-    LIVE_MAP['誠心電視台'] = 'qrv_zOOu89Q'
+
+    with open("./youtube_channel.txt") as lines:
+        for line in lines:
+            ss = line.strip().split(",")
+            if len(ss) != 2:
+                continue
+            if ss[1].find("https://www.youtube.com/watch?v=")<0:
+                continue
+            LIVE_MAP[ss[0]] = ss[1].strip().replace("https://www.youtube.com/watch?v=","")
+    if len(LIVE_MAP.keys()) == 0:
+        logger.info("必须要有直播定义在youtube_channel.txt中")
+        os._exit(0)
+
+
+
 
     for x, v in LIVE_MAP.items():
         STREAM_MAP[v] = None
