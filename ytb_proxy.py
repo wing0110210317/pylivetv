@@ -12,6 +12,7 @@ import youtube_dl
 from sanic import Blueprint
 from sanic import Sanic
 from sanic import response
+from sanic.response import redirect
 
 app = Sanic(__name__)
 blueprint = Blueprint('service')
@@ -82,7 +83,7 @@ def updateM3u8():
 
 def initURL():
 
-    with open("./youtube_channel.txt") as lines:
+    with open("youtube_channel.txt") as lines:
         for line in lines:
             ss = line.strip().split(",")
             if len(ss) != 2:
@@ -130,6 +131,36 @@ async def m3u(request):
         'Content-type': "application/vnd.apple.mpegurl",
         'Content-Length': str(len(content))
     }, status=200)
+# 返回频道列表
+@app.get('/ytbr.m3u')
+async def m3u(request):
+    urlprefx = await getBaseUrl(request) + "/ytbr/"
+    content = "#EXTM3U\r\n"
+    for k, v in LIVE_MAP.items():
+        content = content + "#EXTINF:-1," + k + "\r\n" + urlprefx + v + "\r\n"
+    return response.text(body=content, headers={
+        'Content-type': "application/vnd.apple.mpegurl",
+        'Content-Length': str(len(content))
+    }, status=200)
+
+# 将ts文件以代理列表的形式返回
+@app.get('/ytbr/<id:str>')
+async def service(request, id):
+    if id not in STREAM_MAP:
+        return response.text("not found", status=404)
+
+    url = "https://www.youtube.com/watch?v=" + id
+
+    if id in STREAM_MAP and STREAM_MAP[id] is not None:
+        stream_url = STREAM_MAP[id]
+    else:
+        stream_url = extractStreamUrl(url)
+        if '.m3u8' not in stream_url:
+            return response.text("not found", status=404)
+        STREAM_MAP[id] = stream_url
+
+    return redirect(stream_url)
+
 
 
 # 将ts文件以代理列表的形式返回
