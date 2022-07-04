@@ -16,14 +16,11 @@ TVBS新聞, https://www.youtube.com/watch?v=2mCSYvcfhtc
 名城綜合台, https://www.youtube.com/watch?v=ryeZuqIs_bE
 誠心電視台, https://www.youtube.com/watch?v=qrv_zOOu89Q
 東森新聞全球速報, https://www.youtube.com/watch?v=SBtGwNMfuf0
-KKBOX華語單曲排行週榜, https://www.youtube.com/watch?v=3O0X4F6Wmn0
 抖音歌曲合集, https://www.youtube.com/watch?v=OBCUKIbxBlc
 50首最佳抒情歌1, https://www.youtube.com/watch?v=YmDEFhGv4hc
 50首最佳抒情歌2, https://www.youtube.com/watch?v=ch4mHbXj8ZQ
 網路流行音樂電台, https://www.youtube.com/watch?v=wrYF0HX7Kzc
-西洋流行音樂電台, https://www.youtube.com/watch?v=uUBfbLdXArA
-经典歌曲大全, https://www.youtube.com/watch?v=yp50h7WKxCo
-经典老歌中国, https://www.youtube.com/watch?v=0ZicbdFqBcw
+西洋流行音樂電台, https://www.youtube.com/watch?v=3f0MB0i-PzQ
 東森財經新聞, https://www.youtube.com/watch?v=ABn_ccXn_jc
 運通財經, https://www.youtube.com/watch?v=vOUo22ZNQng
 新唐人TV, https://www.youtube.com/watch?v=WIhgU_mc05A
@@ -32,31 +29,4 @@ YTN 사이언스, https://www.youtube.com/watch?v=xfFa_kcPnCY
 半岛新闻(英语), https://www.youtube.com/watch?v=F-POY4Q0QSI
 三立海外, https://www.youtube.com/watch?v=FoBfXvlOR6I
 Lofi Girl, https://www.youtube.com/watch?v=5qap5aO4i9A
-NBC News, https://www.youtube.com/watch?v=2JtPbSwdcLU
-ABC News, https://www.youtube.com/watch?v=w_Ma8oQLmSM
-Sky News, https://www.youtube.com/watch?v=9Auq9mYxFEE
-Bloomberg Global Financial News, https://www.youtube.com/watch?v=dp8PhLsUcFE
-DW News, https://www.youtube.com/watch?v=GE_SfNVNyqk
-ENGLISH SPEECH, https://www.youtube.com/watch?v=osCtkH5B7vA
-ABC News-AU, https://www.youtube.com/watch?v=vOTiJkg1voo
-MBC News, https://www.youtube.com/watch?v=NtRi45RSFfM
-KBS Kr, https://www.youtube.com/watch?v=bBodsrnap_A
-NASA TV, https://www.youtube.com/watch?v=86YLFOog4GM
-NASA TV2, https://www.youtube.com/watch?v=21X5lGlDOfg		
-TVBS, https://www.youtube.com/watch?v=hP6_jfCFxyQ
-Al Jazeera, https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg/live    
-France 24, https://www.youtube.com/watch?v=h3MuIUNCCzI  
-DW, https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live    
-ANN News, https://www.youtube.com/watch?v=coYw-eVU0Ks
-YTN News, https://www.youtube.com/watch?v=py_phbQxy5Y  
-MBC News, https://www.youtube.com/watch?v=ed6eUpCoZSE    
-KBS Korea, https://www.youtube.com/watch?v=HnfpTMtfFk8    
-ABC News, https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/live
-NHK News, https://www.youtube.com/watch?v=f0lYkdA-Gtw    
-CNA, https://www.youtube.com/watch?v=XWq5kBlakcQ  
-CGTN News Live, https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg/live
-TRT World, https://www.youtube.com/watch?v=CV5Fooi8YJA
-WION, https://www.youtube.com/watch?v=KyUT37gNm5w      
-Euronews, https://www.youtube.com/channel/UCSrZ3UV4jOidv8ppoVuvW9Q/live    
-Earth TV,  https://www.youtube.com/watch?v=3qdEMXmwTkQ
-English Speech, https://www.youtube.com/watch?v=osCtkH5B7vA
+
