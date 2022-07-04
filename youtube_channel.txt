@@ -5,6 +5,7 @@ TVBS, https://www.youtube.com/watch?v=hP6_jfCFxyQ
 鳳凰新聞, https://www.youtube.com/watch?v=PJs1JgW1r-A
 鳳凰中文, https://www.youtube.com/watch?v=kk12tpAlGTI
 TVBS新聞, https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS選新聞, https://www.youtube.com/watch?v=9RqX0rVzbxs
 台視新聞, https://www.youtube.com/watch?v=xL0ch83RAK8
 東森新聞, https://www.youtube.com/watch?v=R2iMq5LKXco
 中視新聞, https://www.youtube.com/watch?v=TCnaIE_SAtM
@@ -29,4 +30,5 @@ YTN 사이언스, https://www.youtube.com/watch?v=xfFa_kcPnCY
 半岛新闻(英语), https://www.youtube.com/watch?v=F-POY4Q0QSI
 三立海外, https://www.youtube.com/watch?v=FoBfXvlOR6I
 Lofi Girl, https://www.youtube.com/watch?v=5qap5aO4i9A
-
+Pop Music, https://www.youtube.com/watch?v=KmB1MJO81wQ
+KISSRADIO, https://www.youtube.com/watch?v=4CDKuskMHWw
